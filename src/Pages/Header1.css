@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+   
+    align-items: center;
+    background-color: rgb(237, 231, 231);
+}
+
+.header1 .right {
+    display: flex;
+    gap: 30px;
+}
+
+.header1 .right input {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.header1 .right button {
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.header1 .mid h1 {
+    font-size: 50px;
+}

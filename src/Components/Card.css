@@ -1,0 +1,34 @@
+.card{
+   background-color: beige;
+    width: 400px;
+    height: 470px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+  
+   
+}
+.card h1,h2,h3{
+    padding-left: 30px;
+}
+.card img{
+   
+    border-top-left-radius: 20px;  /* Adjust the value as needed */
+    border-top-right-radius: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.info .left,.right,.mid{
+    display: flex;
+}
